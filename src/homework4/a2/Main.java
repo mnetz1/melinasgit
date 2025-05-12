@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//Test für Methode "isAnagram()":
-		System.out.println(isAnagram("melina", "melina"));
+		System.out.println(isAnagram("melina", "me"+"lina"));
 		
 		//Test für Methode "countLetters()":
 		 System.out.println(Arrays.toString(countLetters("melina")));

@@ -2,10 +2,10 @@ package a3;
 
 public interface Switchable {
 	
-	public void turnOn();
+	public void turnOn(); //man braucht public nicht
 	
-	public void turnOff();
+	public void turnOff(); //"
 	
-	public boolean isOn();
+	public boolean isOn(); //"
 
 }

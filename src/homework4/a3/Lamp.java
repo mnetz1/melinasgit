@@ -21,6 +21,7 @@ public class Lamp implements Dimmable, Switchable {
 		if (on == true) {
 			return true;
 		} else return false;
+		//oder einfach: return on;
 	}
 
 	//setBrightness() only changes the value when lamp is on
@@ -28,6 +29,8 @@ public class Lamp implements Dimmable, Switchable {
 	public void setBrightness(int level) {
 	if (on == true && level <= MAX_BRIGHTNESS && level >= 0) {
 		brightness = level;}
+	//oder: brightness= Math.max(0, Math.min(MAX_BRIGHTNESS, level)); 
+	//stellt sicher, dass level zwischen 0 und 100
 
 	}
 
