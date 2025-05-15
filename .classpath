@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="homework2/|homework4A1/|homework4/|P4/|P3/|Präsenzaufgabe2/|homework3A1/|homework5/" kind="src" path="src"/>
+	<classpathentry excluding="homework2/|homework4A1/|homework4/|P4/|P3/|Präsenzaufgabe2/|homework3A1/|homework5/|homework6/" kind="src" path="src"/>
 	<classpathentry kind="src" path="src/homework2"/>
 	<classpathentry kind="src" path="src/homework4"/>
 	<classpathentry kind="src" path="src/P4"/>
@@ -8,6 +8,7 @@
 	<classpathentry kind="src" path="src/Präsenzaufgabe2"/>
 	<classpathentry kind="src" path="src/homework3A1"/>
 	<classpathentry kind="src" path="src/homework5"/>
+	<classpathentry kind="src" path="src/homework6"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
